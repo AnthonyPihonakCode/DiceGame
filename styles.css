@@ -25,7 +25,6 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -75,7 +74,6 @@ main {
 }
 
 .current {
-  background-color: black;
   opacity: 0.8;
   border-radius: 50%;
   color: #fff;
@@ -111,8 +109,6 @@ main {
   transition: all 0.2s;
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
-  background-color: black;
 }
 
 .btn::first-letter {
@@ -165,4 +161,12 @@ main {
 
 .hidden {
   display: none;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  align-content: center;
+  color: gold;
+  font-size: 75px;
 }
